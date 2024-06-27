@@ -1,0 +1,234 @@
+@font-face {
+    font-family: avenir next;
+    src: url(./src/AvenirNextCyr-Regular.woff);
+}
+
+@font-face {
+    font-family: times now light;
+    src: url(./src/TimesNow-Light.woff);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-tools {
+    padding: 40px 30px 0;
+    overflow: hidden;
+}
+
+.header-tools div {
+    padding: 11px 20px;
+    float: right;
+}
+h1 {
+    font-size: 64px;
+    font-family: times now light, sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+p, h4 {
+    font-family: "avenir next", "sans-serif";
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-container {
+    padding: 25px 0;
+    align-content: center;
+}
+
+.header-container ul {
+    display: flex;
+}
+
+li {
+    padding: 17px 25px;
+    list-style-type: none;
+}
+
+.header-container a {
+    text-transform: uppercase;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.home-blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2%;
+}
+
+.home-blog {
+    width: 70%;
+    margin-bottom: 32px;
+    padding: 0 25px;
+}
+
+.home-blog-50 {
+    width: 50%;
+    margin: 32px 0;
+    padding: 0 25px;
+}
+article h4 {
+    margin: 20px 0 12px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 200;
+} 
+
+article p {
+    font-size: 18px;
+    margin: 10px 0 30px;
+}
+
+h3, h5 {
+    font-family: times now light, sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.img-container {
+    background: url(https://girlboss.com/cdn/shop/files/gb_course-tori_web_homepagehero_d_1920x800_crop_center.jpg?v=1705340472);
+    min-height: 670px;
+    background-size: cover;
+}
+
+.img-sub-container {
+    padding: 0 5% 80px;
+    display: flex;
+    flex-direction: row;
+    min-height: inherit;
+}
+
+.img-sub-container div {
+    width: 50%;
+    padding: 5% 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.img-sub-container p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+
+.class2  {
+    background: url(https://girlboss.com/cdn/shop/files/GB_Web_Hero_Daily_2880x1269_2x_04504c9a-067d-4a0f-811a-0e971b787afa_1024x1024.jpg?v=1674706567);
+    background-size: cover;
+}
+
+.sub-class2 {
+    flex-direction: row-reverse;
+}
+
+.sub-class2 div {
+    width: 40%;
+}
+
+.class3 {
+    background: url(https://girlboss.com/cdn/shop/files/gb_banner_jobs_1440x640.jpg?v=1705341069);
+    min-height: 453px;
+}
+
+.sub-class3 {
+    justify-content: center;
+    padding-top: 80px;
+}
+.sub-class3 div {
+    width: 90%;
+}
+
+.sub-class3 p {
+    margin: 0 70px;
+    text-align: center;
+}
+
+.class4 {
+    background: url(https://girlboss.com/cdn/shop/files/gb_web_podcast_homepagehero_d_dd312e66-5df5-4524-a109-2b6f2faa218f_1920x864_crop_center.jpg?v=1705957661);
+    background-size: cover;
+}
+.sub-class4 h1 {
+    text-align: left ;
+}
+
+.sub-class4 div {
+    width: 50%;
+}
+
+.featured-episodes h1 {
+    margin: 60px 0;
+}
+
+.home-blog-30 {
+    width: 33%;
+    margin: 32px 0;
+    padding: 0 25px;
+}
+
+footer {
+    padding: 20px 30px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0 20px;
+    justify-content: space-between;
+}
+
+footer h3 {
+    font-size: 36px;
+    margin: 36px 0 20px;
+
+}
+
+#list-row {
+    display: flex;
+    margin: 1.6em 0;
+}
+
+footer li {
+    padding: 0;
+}
+
+.footer-block {
+    padding-right: 30px;
+}
+.footer-block ul {
+    margin-top: 80px;
+    padding-right: 30px;
+}
+
+.footer-container div:last-child {
+    margin-top: 40px;
+}
+
+footer div:last-child {
+    padding: 0;
+}
+
