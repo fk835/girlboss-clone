@@ -37,19 +37,35 @@ p, h4 {
     font-family: "avenir next", "sans-serif";
     font-size: 16px;
 }
-
 .header {
     display: flex;
     justify-content: space-around;
+    overflow:auto;
 }
 
-.header-container {
+.container {
     padding: 25px 0;
-    align-content: center;
+    
+}
+.sticky {
+    position: sticky;
+    top: 0;        /* sticky postion */
+    align-self: flex-start;
+}
+.sticky ul :hover {
+    text-decoration: underline;
 }
 
-.header-container ul {
+.container ul {
     display: flex;
+    text-transform: uppercase;
+}
+
+.main-content ul:first-child {
+    margin-left: 25px;
+}
+.main-content ul:first-child :hover {
+    text-decoration: underline;
 }
 
 li {
@@ -63,10 +79,6 @@ li {
 
 img {
     height: 100%;
-    width: 100%;
-}
-
-.container {
     width: 100%;
 }
 
