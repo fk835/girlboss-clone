@@ -6,6 +6,7 @@ The link to the original website is the following:
 https://girlboss.com/
 
 The link to my replica is following:
+https://fk835.github.io/girlboss-clone/
 
 
  
